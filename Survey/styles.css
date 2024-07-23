@@ -1,0 +1,59 @@
+body {
+    margin: 10px;
+    width: 100%;
+    font-size: 16px;
+    text-align: center;
+    padding: 10px;
+    height: 100vh;
+    background-color: #f9f1f1;
+  }
+  
+  form {
+    margin: auto;
+    text-align: left;
+    max-width: 500px;
+    min-width: 300px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: 20px solid #000e32;
+  }
+  
+  input[type="text"], input[type="email"], input[type="number"] {
+    width: 100%;
+  }
+  
+  label {
+    display: block;
+  }
+  
+  fieldset {
+    border: none;
+    padding-bottom: 20px;
+  }
+  
+  input[id=place] {
+    display: inline;
+    margin: auto;
+  }
+  
+  input[type="submit"] {
+    text-align: center;
+    display: block;
+    margin: auto;
+    width: 100px;
+  } 
+  .top {
+    border-bottom: 10px solid #db6c00;
+    color: #f9f1f1;
+    background-color: #a6230e;
+    font-family: sans-serif;
+    max-width: 500px;
+    min-width: 300px;
+    margin: auto;
+    padding: 0 10 0 10
+  }
+  textarea {
+    width: 100%;
+    }
