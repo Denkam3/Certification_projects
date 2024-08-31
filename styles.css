@@ -66,3 +66,6 @@ input[type="submit"]:hover {
 textarea {
   width: 100%;
   }
+.container {
+    max-width: 520px;
+  }
