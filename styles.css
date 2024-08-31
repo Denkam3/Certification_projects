@@ -1,6 +1,5 @@
 body {
   margin: 10px;
-  width: 100%;
   font-size: 16px;
   text-align: center;
   padding: 10px;
@@ -13,11 +12,11 @@ form {
   text-align: left;
   max-width: 500px;
   min-width: 300px;
-  padding-left: 20px;
-  padding-right: 20px;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  border-bottom: 20px solid #000e32;
+  padding: 20px;
+  border: 2px solid #000e32;
+  border-radius: 8px;
+  background-color: #ffffff;
+
 }
 
 input[type="text"], input[type="email"], input[type="number"] {
@@ -26,6 +25,7 @@ input[type="text"], input[type="email"], input[type="number"] {
 
 label {
   display: block;
+  color: #a6230e;
 }
 
 fieldset {
@@ -43,16 +43,24 @@ input[type="submit"] {
   display: block;
   margin: auto;
   width: 100px;
+  background-color: #db6c00;
+  color: #ffffff;
+  border: 0;
+  padding: 5px;
+  border-radius: 8px;
 } 
+input[type="submit"]:hover {
+  background-color: #a65300;
+  }
 .top {
   border-bottom: 10px solid #db6c00;
   color: #f9f1f1;
   background-color: #a6230e;
   font-family: sans-serif;
-  max-width: 500px;
   min-width: 300px;
   margin: auto;
-  padding: 0 10 0 10
+  padding: 15px 20px;
+  border-radius: 8px 8px 0 0;
 }
 textarea {
   width: 100%;
